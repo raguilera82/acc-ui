@@ -4,6 +4,6 @@
 
 git flow release finish -m $1 $1
 git push origin master
-npm publish
 npm run build
+npm publish
 firebase deploy
